@@ -7,12 +7,12 @@ Generate a Source &mdash; Target matrix to model a Social Network
 ### Dependancies
 - Python 2.7 [[link](https://www.python.org/download/releases/2.7.6/)]
 
-- "Python Twitter Tools" was used as a wrapper around the Twitter API:
-Source Code: [[link](https://github.com/sixohsix/twitter)]
+- "Python Twitter Tools" was used as a wrapper around the Twitter API: <br />
+Source Code: [[link](https://github.com/sixohsix/twitter)] <br />
 Installation: [[link](http://mike.verdone.ca/twitter/#install)]
 
-- Openpyxl (v 2.4.0-b1) was used to read/write excel workbooks/sheets:
-Documentation: [[link](https://openpyxl.readthedocs.io/en/default/index.html)]
+- Openpyxl (v 2.4.0-b1) was used to read/write excel workbooks/sheets: <br />
+Documentation: [[link](https://openpyxl.readthedocs.io/en/default/index.html)] <br />
 Installation: [[link](https://pypi.python.org/pypi/openpyxl)]
 
 ### How to use
