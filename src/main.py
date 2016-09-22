@@ -4,12 +4,14 @@ settings = {}
 execfile("settings.py", settings)
 
 
-def makeFile(FileName = settings["directory_name"]):
+def makeFile(FileName):
     if not path.exists(FileName):
         mkdir(FileName)
 
 
-makeFile()
+makeFile(settings["files_directory_name"])
+makeFile(settings["matrix_directory_name"])
 
 execfile("getFollowersList.py")
 execfile("getFollowingList.py")
+execfile("generateEdgesMatrix.py")

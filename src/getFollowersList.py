@@ -41,7 +41,7 @@ for username in user_names["user_names"]:
 
     username = username[1:]
 
-    fileName = settings["directory_name"] + '/' + str(username) + '.xlsx'
+    fileName = settings["files_directory_name"] + str(username) + '.xlsx'
 
     # -----------------------------------------------------------------------
     # create excel workbook for each user
